@@ -1,0 +1,231 @@
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+}
+
+.left {
+    
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: -30px;
+    text-align: center;
+
+
+
+}
+
+.left img {
+    width: 130px;
+    filter: invert(100%);
+    position: relative;
+
+
+}
+
+#img-text {
+    position: absolute;
+    top: 100px;
+    right: 26px;
+    color: white;
+}
+
+#img-text:hover {
+    color: gray;
+}
+
+
+.mid {
+    
+    width: 802px;
+    display: block;
+    margin: 18px auto;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 0px;
+    font-size: 23px;
+
+
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 32px;
+}
+
+#navbar a:active {
+    text-decoration: underline;
+}
+
+#navbar a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.right {
+    
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 19px;
+
+}
+
+.btn {
+    margin: 2px 18px 5px -5px;
+    padding: 6px 18px 6px 18px;
+    border-radius: 15px;
+    color: #F0F0F0;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+.btn:hover {
+    color: #F0F0F0;
+    background-color: #2b2839;
+
+}
+
+
+
+.side-navbar a {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    position: absolute;
+    right: -195px;
+    text-decoration: none;
+    
+    width: 222px;
+    margin: 0px 13px 23px 0px;
+    padding: 30px 0px 20px 6px;
+    font-size: 23px;
+    border-radius: 25px 10px;
+    background-color: rgb(110, 106, 106);
+    opacity: 0.3;
+    transition: 0.4s;
+    text-align: center;
+    border: 5px solid whitesmoke;
+    color: white;
+    font-weight: bolder;
+}
+#signup {
+top: 35%;
+   
+}
+.side-navbar #signup:hover{
+    right: -15px;
+    background-color: rgb(233, 227, 227);
+    color: #09090a;
+}
+#membership {
+top: 45%;
+
+}
+.side-navbar #membership:hover{
+    right: -50px;
+    background-color: rgb(233, 227, 227);
+    color: #09090a;
+}
+#login {
+ top: 55%;
+ 
+}
+.side-navbar #login:hover{
+    right: -70px;
+    background-color: rgb(233, 227, 227);
+    color: #09090a;
+}
+.container{
+    width: 600px;
+    height: 450px;
+    padding: 50px;
+    margin: 4% 10%;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 425px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: black;
+    font-weight: bolder;
+    border-radius: 13px;
+}
+select {
+    width: 470px;
+    height: 38px;
+    margin: 3px 65px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 13px;
+
+}
+select:hover{
+    background-color: rgb(206, 202, 202);
+    color:#09090a;
+}
+/*::selection{
+    color: none;
+    background-color: #dbd2d2;
+}*/
+option:hover{ 
+   color:#09090a;
+   background-color: red;
+    /* background-color: rgb(206, 202, 202); 
+     background: #2b2839; */
+
+}
+option{
+    background-color: #1d1d20;
+    color: #dbd2d2;
+
+}
+::placeholder{
+    color: #09090a;
+}
+input:hover{
+    background-color: rgb(206, 202, 202);
+}
+#submit{
+    width: 465px;
+    margin: 7px 67px;
+    border: 2px solid #dbd2d2;
+}
+.opt option:hover{
+     background: red !important;
+}
+/*
+.side-navbar a:hover{
+    right: -10px;
+}
+
+/* #register { 
+    position: absolute;
+    right: -14px;
+    top: 52%;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    border: 5px solid #F0F0F0 ;
+    margin: 0px 13px 23px 0px;
+    padding: 30px 104px 3px 6px;
+ }555e5e
+ https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80
